@@ -3,7 +3,7 @@ name: Build-sphinx-docs
 on:
   workflow_call:
     inputs:
-      python_version:
+      python-version:
         description: 'Python version to use'
         required: false
         default: '3.13'
